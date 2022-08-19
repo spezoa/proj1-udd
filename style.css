@@ -27,6 +27,11 @@ body {
     font-family: circular-font-med, sans-serif;
 }
 
+
+#info-selector {
+    min-width: 472px;
+}
+
 .burnlogo-large {
     width: 10em;
 }
@@ -38,6 +43,11 @@ body {
 
     .burnlogo-large {
         display: none;
+    }
+
+    .listbutton {
+        width: 25px;
+        height: 25px;
     }
 }
 
