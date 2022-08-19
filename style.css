@@ -27,6 +27,22 @@ body {
     font-family: circular-font-med, sans-serif;
 }
 
-.burnlogo-nav {
+.burnlogo-large {
     width: 10em;
+}
+
+@media screen and (max-width: 768px) {
+    .burnlogo-small {
+        width: 2em;
+    }
+
+    .burnlogo-large {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .burnlogo-small {
+        display: none;
+    }
 }
