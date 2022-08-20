@@ -41,6 +41,12 @@ body {
 
 #burnnav ul li a:hover {
     color: #e83113;
+    opacity: .8;
+    transform: scale(1.05);
+}
+
+.logos-burn a:hover img{
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 992px) {
