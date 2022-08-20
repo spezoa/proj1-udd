@@ -25,6 +25,9 @@
 
 body {
     font-family: circular-font-med, sans-serif;
+}
+
+.bg-main-color {
     background-color: #e83113;
 }
 
