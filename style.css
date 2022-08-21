@@ -148,6 +148,10 @@ footer div div div a:hover {
     background-color: #333333;
 }
 
+footer div div a svg {
+    fill: #212529
+}
+
 @media screen and (max-width: 1520px) {
     div .btn-jumbo {
         color: #e83113;
