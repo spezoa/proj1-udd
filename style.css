@@ -26,6 +26,7 @@
 .bg-main {
     background-color: #e83113;
     font-family: circular-font-lite;
+    overflow-x: hidden;
 }
 
 .burnlogo-large {
@@ -50,8 +51,9 @@
 
 div .btn-jumbo {
     color: #e83113;
-    font-family: circular-font-lite;
+    font-family: circular-font-med;
     border-radius: 50px;
+    /* background-color: #e83113; */
 }
 
 div .btn-jumbo:hover {
@@ -62,13 +64,86 @@ div .btn-jumbo:hover {
 }
 
 div h1 {
+    color: #212529;
     font-family: circular-font-bold;
+    align-content: center;
     text-align: center;
+    /* background-color: #212529; */
+    border-radius: 50px;
+    font-size: 70px;
 }
 
-.jumbo-press {
-    background-image: url(https://images.unsplash.com/photo-1502907997294-84206b78f31b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80);
-    width: max-content;
+.ffimg {
+    width: 1000px;
+}
+
+
+/* .jumbo-press {
+    background-image: url(https://images.unsplash.com/photo-1575507371089-cd0a12c5aae9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+} */
+
+@media screen and (max-width: 1520px) {
+    
+
+    #burnnav ul img {
+        width: 25px;
+        height: 2px;
+        margin: 10px 17px;
+        background-color: white;
+    }
+
+    .ffimg {
+        width: 900px;
+        justify-content: center;
+    }
+
+    div h1 {
+        color: #212529;
+        font-family: circular-font-bold;
+        align-content: center;
+        text-align: center;
+        /* background-color: #212529; */
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .burnlogo-small {
+        width: 2em;
+    }
+
+    .burnlogo-large {
+        display: none;
+    }
+
+    .listbutton {
+        width: 25px;
+        height: 25px;
+    }
+
+    #burnnav ul img {
+        width: 25px;
+        height: 2px;
+        margin: 10px 17px;
+        background-color: white;
+    }
+
+    .ffimg {
+        width: 700px;
+        justify-content: space-evenly;
+    }
+
+    div h1 {
+        color: #212529;
+        font-family: circular-font-bold;
+        align-content: center;
+        text-align: center;
+        /* background-color: #212529; */
+        font-size: 60px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -90,6 +165,98 @@ div h1 {
         height: 2px;
         margin: 10px 17px;
         background-color: white;
+    }
+
+    .ffimg {
+        width: 700px;
+        justify-content: space-evenly;
+    }
+
+    div h1 {
+        color: #212529;
+        font-family: circular-font-bold;
+        align-content: center;
+        text-align: center;
+        /* background-color: #212529; */
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 772px) {
+    div .btn-jumbo {
+        color: #e83113;
+        font-family: circular-font-med;
+        border-radius: 20px;
+        font-size: 15px;
+        min-width: 180px;
+    }
+
+    .burnlogo-small {
+        width: 2em;
+    }
+
+    .burnlogo-large {
+        display: none;
+    }
+
+    .listbutton {
+        width: 25px;
+        height: 25px;
+    }
+
+    #burnnav ul img {
+        width: 25px;
+        height: 2px;
+        margin: 10px 17px;
+        background-color: white;
+    }
+
+    .ffimg {
+        width: 600px;
+        justify-content: center;
+    }
+
+    div h1 {
+        color: #212529;
+        font-family: circular-font-bold;
+        align-content: center;
+        text-align: center;
+        /* background-color: #212529; */
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .burnlogo-small {
+        width: 2em;
+    }
+
+    .burnlogo-large {
+        display: none;
+    }
+
+    .listbutton {
+        width: 25px;
+        height: 25px;
+    }
+
+    #burnnav ul img {
+        width: 25px;
+        height: 2px;
+        margin: 10px 17px;
+        background-color: white;
+    }
+
+    .ffimg {
+        width: 380px;
+        justify-content: center;
+    }
+
+    div h1 {
+        color: #212529;
+        font-family: circular-font-med;
+        text-align: center;
+        /* background-color: #212529; */
+        font-size: 40px;
     }
 }
 
