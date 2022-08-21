@@ -64,6 +64,20 @@ div .btn-jumbo:hover {
     font-family: circular-font-black;
 }
 
+div .btn-send {
+    color: #e83113;
+    font-family: circular-font-med;
+    border-radius: 50px;
+    width: 150px;
+}
+
+div .btn-send:hover {
+    color:#e83113;
+    transform: scale(1.01);
+    background-color: #333333;
+    font-family: circular-font-black;
+}
+
 div h1 {
     color: #212529;
     font-family: circular-font-bold;
@@ -76,15 +90,20 @@ div h1 {
 
 .ffimg {
     width: 1000px;
+    align-self: center;
 }
 
-
-/* .jumbo-press {
-    background-image: url(https://images.unsplash.com/photo-1575507371089-cd0a12c5aae9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 800px;
-} */
+div input {
+    color: lightgray;
+    font-family: circular-font-med;
+    background-color: #212529;
+    border-radius: 50px;
+    text-align: center;
+    font-size: larger;
+    width: auto;
+    height: auto;
+    border-color:#333333;
+}
 
 @media screen and (max-width: 1520px) {
     div .btn-jumbo {
@@ -249,6 +268,13 @@ div h1 {
         border-radius: 20px;
         font-size: 15px;
         min-width: 150px;
+    }
+
+    div .btn-send {
+        color: #e83113;
+        font-family: circular-font-med;
+        border-radius: 50px;
+        width: 80px;
     }
 
     .burnlogo-small {
