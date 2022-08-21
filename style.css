@@ -165,7 +165,11 @@ footer div div div a:hover {
 }
 
 footer div div a svg {
-    fill: #212529
+    fill: #212529;
+}
+
+footer div div a svg:hover {
+    fill: #333333;
 }
 
 @media screen and (max-width: 1520px) {
