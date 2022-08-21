@@ -172,6 +172,7 @@ footer div div a svg {
 
 footer div div a svg:hover {
     filter: drop-shadow(0 0 .5rem #e83113);
+    filter: ;
 }
 
 @media screen and (max-width: 1520px) {
