@@ -60,7 +60,6 @@ div .btn-jumbo {
 div .btn-jumbo:hover {
     color:#e83113;
     transform: scale(1.01);
-    background-color: #333333;
     font-family: circular-font-black;
 }
 
@@ -90,7 +89,6 @@ div h1 {
 
 .ffimg {
     width: 1000px;
-    align-self: center;
 }
 
 div input {
@@ -103,6 +101,12 @@ div input {
     width: auto;
     height: auto;
     border-color:#333333;
+}
+
+#card-catalog {
+    font-family: circular-font-book;
+    color: #212529;
+    background-color: #e83113;
 }
 
 @media screen and (max-width: 1520px) {
