@@ -131,6 +131,20 @@ div div h1 {
     opacity: .9;
 } */
 
+footer div {
+    color: #212529;
+    font-family: circular-font-book;
+
+}
+
+footer div a {
+    color: #212529;
+}
+
+footer div a:hover {
+    color: #e83113;
+    background-color: #212529;
+}
 
 @media screen and (max-width: 1520px) {
     div .btn-jumbo {
