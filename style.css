@@ -170,6 +170,7 @@ footer div div a svg {
 
 footer div div a svg:hover {
     fill: #333333;
+    transform:rotate(10deg);
 }
 
 @media screen and (max-width: 1520px) {
@@ -253,9 +254,8 @@ footer div div a svg:hover {
     }
 
     .listbutton {
-        width: 25px;
-        height: 25px;
-        background-color: #e83113;
+        width: 35px;
+        height: 35px;
     }
 
     #burnnav ul img {
