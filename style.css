@@ -63,6 +63,22 @@ div .btn-jumbo:hover {
     font-family: circular-font-black;
 }
 
+div .btn-catalog {
+    color: #e83113;
+    font-family: circular-font-med;
+    border-radius: 50px;
+    min-width: 200px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+div .btn-catalog:hover {
+    color:#e83113;
+    transform: scale(1.05);
+    font-family: circular-font-black;
+    text-align: center;
+}
+
 div .btn-send {
     color: #e83113;
     font-family: circular-font-med;
