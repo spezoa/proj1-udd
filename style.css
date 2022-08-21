@@ -54,6 +54,7 @@ div .btn-jumbo {
     font-family: circular-font-med;
     border-radius: 50px;
     /* background-color: #e83113; */
+    min-width: 300px;
 }
 
 div .btn-jumbo:hover {
@@ -86,7 +87,13 @@ div h1 {
 } */
 
 @media screen and (max-width: 1520px) {
-    
+    div .btn-jumbo {
+        color: #e83113;
+        font-family: circular-font-med;
+        border-radius: 50px;
+        font-size: 15px;
+        min-width: 260px;
+    }
 
     #burnnav ul img {
         width: 25px;
@@ -111,6 +118,14 @@ div h1 {
 }
 
 @media screen and (max-width: 1250px) {
+    div .btn-jumbo {
+        color: #e83113;
+        font-family: circular-font-med;
+        border-radius: 50px;
+        font-size: 15px;
+        min-width: 180px;
+    }
+    
     .burnlogo-small {
         width: 2em;
     }
@@ -142,7 +157,7 @@ div h1 {
         align-content: center;
         text-align: center;
         /* background-color: #212529; */
-        font-size: 60px;
+        font-size: 50px;
     }
 }
 
@@ -178,7 +193,8 @@ div h1 {
         align-content: center;
         text-align: center;
         /* background-color: #212529; */
-        font-size: 60px;
+        font-size: 45px;
+        min-width: 350px;
     }
 }
 
@@ -186,9 +202,9 @@ div h1 {
     div .btn-jumbo {
         color: #e83113;
         font-family: circular-font-med;
-        border-radius: 20px;
+        border-radius: 30px;
         font-size: 15px;
-        min-width: 180px;
+        min-width: 300px;
     }
 
     .burnlogo-small {
@@ -212,8 +228,9 @@ div h1 {
     }
 
     .ffimg {
-        width: 600px;
+        width: 550px;
         justify-content: center;
+        align-self: center;
     }
 
     div h1 {
@@ -222,10 +239,18 @@ div h1 {
         align-content: center;
         text-align: center;
         /* background-color: #212529; */
-        font-size: 40px;
+        font-size: 35px;
     }
 }
 @media screen and (max-width: 650px) {
+    div .btn-jumbo {
+        color: #e83113;
+        font-family: circular-font-med;
+        border-radius: 20px;
+        font-size: 15px;
+        min-width: 150px;
+    }
+
     .burnlogo-small {
         width: 2em;
     }
@@ -247,7 +272,51 @@ div h1 {
     }
 
     .ffimg {
-        width: 380px;
+        width: 350px;
+        justify-content: center;
+    }
+
+    div h1 {
+        color: #212529;
+        font-family: circular-font-med;
+        text-align: center;
+        /* background-color: #212529; */
+        font-size: 30px;
+        min-width: 200px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    div .btn-jumbo {
+        color: #e83113;
+        font-family: circular-font-med;
+        border-radius: 20px;
+        font-size: 15px;
+        min-width: 150px;
+    }
+
+    .burnlogo-small {
+        width: 2em;
+    }
+
+    .burnlogo-large {
+        display: none;
+    }
+
+    .listbutton {
+        width: 25px;
+        height: 25px;
+    }
+
+    #burnnav ul img {
+        width: 25px;
+        height: 2px;
+        margin: 10px 17px;
+        background-color: white;
+    }
+
+    .ffimg {
+        width: 300px;
         justify-content: center;
     }
 
@@ -257,9 +326,9 @@ div h1 {
         text-align: center;
         /* background-color: #212529; */
         font-size: 40px;
+        min-width: 200px;
     }
 }
-
 @media screen and (min-width: 993px) {
     .burnlogo-small {
         display: none;
