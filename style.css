@@ -343,6 +343,15 @@ footer div div a svg {
         font-size: x-large;
     }
 
+    div .btn-land {
+        color: #e83113;
+        font-family: circular-font-med;
+        border-radius: 20px;
+        font-size: 15px;
+        min-width: 150px;
+        min-height: 100px;
+    }
+
     div .btn-send {
         color: #e83113;
         font-family: circular-font-med;
