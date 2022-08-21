@@ -103,18 +103,24 @@ div input {
     border-color:#333333;
 }
 
-#card-catalog {
+/* #card-catalog {
     font-family: circular-font-med;
     color: #212529;
     background-color: #e83113;
-}
+} */
 
-#card-catalog .card-info {
+div .card-info {
+    font-family: circular-font-med;
     color: #e83113;
     background-color: #212529;
     border-color: #212529;
     border-width: 5px;
     border-radius: 20px;
+}
+
+div .card-firetruck {
+    image-rendering: optimizeQuality;
+    image-resolution: 30%;
 }
 
 @media screen and (max-width: 1520px) {
