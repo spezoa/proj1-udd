@@ -148,29 +148,30 @@ div div h1 {
 } */
 
 footer div {
-    color: #212529;
+    color: #e83113;
     font-family: circular-font-book;
+    background-color: #212529;
 
 }
 
 footer div a {
-    color: #212529;
+    color: #e83113;
     padding: 5px;
-    border-radius: 50px;
+    border-radius: 5px;
 }
 
 footer div div div a:hover {
     color: #e83113;
     background-color: #333333;
+    font-family: circular-font-bold;
 }
 
 footer div div a svg {
-    fill: #212529;
+    fill: #e83113;
 }
 
 footer div div a svg:hover {
-    fill: #333333;
-    transform:rotate(10deg);
+    filter: drop-shadow(0 0 .5rem #e83113);
 }
 
 @media screen and (max-width: 1520px) {
