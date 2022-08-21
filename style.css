@@ -212,19 +212,15 @@ footer div div a svg:hover {
         min-width: 180px;
     }
     
-    .burnlogo-small {
+    /* .burnlogo-small {
         width: 2em;
     }
 
     .burnlogo-large {
         display: none;
-    }
+    } */
 
-    .listbutton {
-        width: 25px;
-        height: 25px;
-    }
-
+    
     #burnnav ul img {
         width: 25px;
         height: 2px;
@@ -259,6 +255,7 @@ footer div div a svg:hover {
     .listbutton {
         width: 25px;
         height: 25px;
+        background-color: #e83113;
     }
 
     #burnnav ul img {
@@ -301,10 +298,7 @@ footer div div a svg:hover {
         display: none;
     }
 
-    .listbutton {
-        width: 25px;
-        height: 25px;
-    }
+    
 
     #burnnav ul img {
         width: 25px;
@@ -371,10 +365,7 @@ footer div div a svg:hover {
         display: none;
     }
 
-    .listbutton {
-        width: 25px;
-        height: 25px;
-    }
+    
 
     #burnnav ul img {
         width: 25px;
@@ -416,10 +407,7 @@ footer div div a svg:hover {
         display: none;
     }
 
-    .listbutton {
-        width: 25px;
-        height: 25px;
-    }
+    
 
     #burnnav ul img {
         width: 25px;
