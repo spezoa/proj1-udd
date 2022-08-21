@@ -104,9 +104,17 @@ div input {
 }
 
 #card-catalog {
-    font-family: circular-font-book;
+    font-family: circular-font-med;
     color: #212529;
     background-color: #e83113;
+}
+
+#card-catalog .card-info {
+    color: #e83113;
+    background-color: #212529;
+    border-color: #212529;
+    border-width: 5px;
+    border-radius: 20px;
 }
 
 @media screen and (max-width: 1520px) {
