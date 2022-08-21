@@ -333,6 +333,16 @@ footer div div a svg {
         min-width: 150px;
     }
 
+    
+    div .btn-catalog {
+        color: #e83113;
+        font-family: circular-font-med;
+        border-radius: 10px;
+        min-width: 200px;
+        text-align: center;
+        font-size: x-large;
+    }
+
     div .btn-send {
         color: #e83113;
         font-family: circular-font-med;
@@ -383,6 +393,7 @@ footer div div a svg {
         font-size: 15px;
         min-width: 150px;
     }
+
 
     .burnlogo-small {
         width: 2em;
