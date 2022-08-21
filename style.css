@@ -139,11 +139,13 @@ footer div {
 
 footer div a {
     color: #212529;
+    padding: 5px;
+    border-radius: 50px;
 }
 
-footer div a:hover {
+footer div div div a:hover {
     color: #e83113;
-    background-color: #212529;
+    background-color: #333333;
 }
 
 @media screen and (max-width: 1520px) {
