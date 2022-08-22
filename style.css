@@ -292,6 +292,16 @@ footer div div a svg:hover {
         max-width: 950px;
     }
 
+    #carouseltruck .carousel-inner {
+        /* max-width: auto; */
+        max-height: 450px;
+    }
+    
+    
+    #carouseltruck .carousel-inner div img {
+        max-height: 450px;
+    }
+
     .listbutton {
         width: 35px;
         height: 35px;
@@ -345,6 +355,16 @@ footer div div a svg:hover {
     #carouselId .carousel-inner div img {
         /* max-height: 950px; */
         max-width: 750px;
+    }
+
+    #carouseltruck .carousel-inner {
+        /* max-width: auto; */
+        max-height: 350px;
+    }
+    
+    
+    #carouseltruck .carousel-inner div img {
+        max-height: 350px;
     }
 
     #burnnav ul img {
@@ -451,6 +471,15 @@ footer div div a svg:hover {
     #carouselId .carousel-inner div img {
         /* max-height: 950px; */
         max-width: 350px;
+    }
+
+    #carouseltruck .carousel-inner {
+        /* max-width: auto; */
+        max-height: 250px;
+    }
+    
+    #carouseltruck .carousel-inner div img {
+        max-height: 250px;
     }
 
     .burnlogo-small {
