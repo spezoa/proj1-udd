@@ -260,7 +260,7 @@ footer div div a svg:hover {
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 994px) {
     .burnlogo-small {
         width: 2em;
     }
