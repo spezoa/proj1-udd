@@ -63,6 +63,21 @@ div .btn-jumbo:hover {
     font-family: circular-font-black;
 }
 
+div .btn-contact-truck {
+    color: #212529;
+    font-family: circular-font-black;
+    border-radius: 50px;
+    background-color: #e83113;
+    min-width: 250px;
+}
+
+div .btn-contact-truck:hover {
+    color:#e83113;
+    /* background-color: #333333; */
+    transform: scale(1.01);
+    font-family: circular-font-black;
+}
+
 div .btn-catalog {
     color: #e83113;
     font-family: circular-font-med;
@@ -119,6 +134,15 @@ div h1 {
     text-align: center;
     border-radius: 50px;
     font-size: 70px;
+}
+
+ article #sooninfo {
+    color: #e83113;
+    background-color: #212529;
+    font-family: circular-font-bold;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
 }
 
 .ffimg {
