@@ -109,7 +109,7 @@ div .card-catalog {
     display: flex;
     height: auto;
     width: fit-content;
-    border-radius: 10px;
+    border-radius: 0px;
     padding: 10px 10px; 
 }
 
@@ -134,6 +134,7 @@ div h1 {
     text-align: center;
     border-radius: 50px;
     font-size: 70px;
+    margin: 0px;
 }
 
  article #sooninfo {
@@ -142,7 +143,6 @@ div h1 {
     font-family: circular-font-bold;
     align-content: center;
     text-align: center;
-    border-radius: 10px;
 }
 
 .ffimg {
@@ -215,7 +215,7 @@ footer div div a svg:hover {
         align-content: center;
         text-align: center;
         /* background-color: #212529; */
-        font-size: 50px;
+        font-size: 60px;
     }
 }
 
@@ -256,7 +256,7 @@ footer div div a svg:hover {
         align-content: center;
         text-align: center;
         /* background-color: #212529; */
-        font-size: 50px;
+        font-size: 60px;
     }
 }
 
@@ -292,7 +292,7 @@ footer div div a svg:hover {
         align-content: center;
         text-align: center;
         /* background-color: #212529; */
-        font-size: 45px;
+        font-size: 55px;
         min-width: 350px;
     }
 }
@@ -335,7 +335,7 @@ footer div div a svg:hover {
         align-content: center;
         text-align: center;
         /* background-color: #212529; */
-        font-size: 35px;
+        font-size: 40px;
     }
 }
 @media screen and (max-width: 650px) {
@@ -381,8 +381,6 @@ footer div div a svg:hover {
         display: none;
     }
 
-    
-
     #burnnav ul img {
         width: 25px;
         height: 2px;
@@ -393,15 +391,6 @@ footer div div a svg:hover {
     .ffimg {
         width: 350px;
         justify-content: center;
-    }
-
-    div h1 {
-        color: #212529;
-        font-family: circular-font-med;
-        text-align: center;
-        /* background-color: #212529; */
-        font-size: 30px;
-        min-width: 200px;
     }
 }
 
@@ -423,8 +412,6 @@ footer div div a svg:hover {
         display: none;
     }
 
-    
-
     #burnnav ul img {
         width: 25px;
         height: 2px;
@@ -435,15 +422,6 @@ footer div div a svg:hover {
     .ffimg {
         width: 300px;
         justify-content: center;
-    }
-
-    div h1 {
-        color: #212529;
-        font-family: circular-font-med;
-        text-align: center;
-        /* background-color: #212529; */
-        font-size: 40px;
-        min-width: 200px;
     }
 }
 @media screen and (min-width: 993px) {
