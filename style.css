@@ -54,6 +54,20 @@
     /* max-height: 650px; */
 }
 
+#carouseltruck .carousel-inner {
+    max-width: auto;
+    max-height: 600px;
+}
+
+
+#carouseltruck .carousel-inner div img {
+    max-height: 1200px;
+}
+
+#carouseltruck .carousel-inner div{
+    text-align: left;
+}
+
 .logos-burn a:hover img {
     transform: scale(1.05);
 }
