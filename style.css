@@ -42,7 +42,16 @@
     opacity: .8;
     transform: scale(1.05);
     font-family: circular-font-black;
+}
 
+#carouselId .carousel-inner {
+    max-width: 650px;
+    max-height: 650px;
+}
+
+#carouselId .carousel-inner div img {
+    max-height: 650px;
+    /* max-width: 650px; */
 }
 
 .logos-burn a:hover img {
@@ -314,8 +323,6 @@ footer div div a svg:hover {
         display: none;
     }
 
-    
-
     #burnnav ul img {
         width: 25px;
         height: 2px;
@@ -331,8 +338,7 @@ footer div div a svg:hover {
 
     div h1 {
         color: #212529;
-        font-family: circular-font-bold;
-        align-content: center;
+        font-family: circular-font-book;
         text-align: center;
         /* background-color: #212529; */
         font-size: 40px;
@@ -380,6 +386,16 @@ footer div div a svg:hover {
     .burnlogo-large {
         display: none;
     }
+
+    #carouselId .carousel-inner {
+        max-width: 450px;
+        /* max-height: 300px; */
+    }
+    
+    #carouselId .carousel-inner div img {
+        /* max-height: max-content; */
+        max-width: 500px;
+    } 
 
     #burnnav ul img {
         width: 25px;
