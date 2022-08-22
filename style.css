@@ -66,17 +66,36 @@ div .btn-jumbo:hover {
 div .btn-catalog {
     color: #e83113;
     font-family: circular-font-med;
-    border-radius: 50px;
+    border-radius: 10px;
     min-width: 200px;
     text-align: center;
-    font-size: xx-large;
+    font-size: x-large;
+    width: fit-content;
 }
 
 div .btn-catalog:hover {
-    color:#e83113;
+    color:#212529;
+    background-color: #e83113;
     transform: scale(1.05);
-    font-family: circular-font-black;
     text-align: center;
+}
+
+div .card-info {
+    font-family: circular-font-med;
+    color: #e83113;;
+    border-color: #212529;
+    background-color: #212529;
+    border-width: 5px;
+    border-radius: 20px;
+    min-height:fit-content;
+}
+
+div .card-catalog {
+    display: flex;
+    height: auto;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px 10px; 
 }
 
 div .btn-send {
@@ -116,15 +135,6 @@ div input {
     width: auto;
     height: auto;
     border-color:#333333;
-}
-
-div .card-info {
-    font-family: circular-font-med;
-    color: #e83113;
-    background-color: #212529;
-    border-color: #212529;
-    border-width: 5px;
-    border-radius: 20px;
 }
 
 footer div {
@@ -193,6 +203,7 @@ footer div div a svg:hover {
         font-size: 15px;
         min-width: 180px;
     }
+
     
     /* .burnlogo-small {
         width: 2em;
