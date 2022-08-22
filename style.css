@@ -45,13 +45,13 @@
 }
 
 #carouselId .carousel-inner {
-    max-width: 650px;
-    max-height: 650px;
+    max-width: 800px;
+    /* max-height: 650px; */
 }
 
 #carouselId .carousel-inner div img {
-    max-height: 650px;
-    /* max-width: 650px; */
+    max-width: 800px;
+    /* max-height: 650px; */
 }
 
 .logos-burn a:hover img {
