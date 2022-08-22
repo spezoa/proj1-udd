@@ -55,17 +55,17 @@
 }
 
 #carouseltruck .carousel-inner {
-    max-width: auto;
+    /* max-width: auto; */
     max-height: 600px;
 }
 
 
 #carouseltruck .carousel-inner div img {
-    max-height: 1200px;
+    max-height: 600px;
 }
 
 #carouseltruck .carousel-inner div{
-    text-align: left;
+    text-align: center;
 }
 
 .logos-burn a:hover img {
