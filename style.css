@@ -273,13 +273,18 @@ footer div div a svg:hover {
     }
 }
 
-@media screen and (max-width: 994px) {
+@media screen and (max-width: 993px) {
     .burnlogo-small {
         width: 2em;
     }
 
     .burnlogo-large {
         display: none;
+    }
+
+    .listbutton {
+        width: 35px;
+        height: 35px;
     }
 
     #carouselId .carousel-inner {
@@ -302,16 +307,10 @@ footer div div a svg:hover {
         max-height: 450px;
     }
 
-    .listbutton {
-        width: 35px;
-        height: 35px;
-    }
-
     #burnnav ul img {
         width: 25px;
         height: 2px;
         margin: 10px 17px;
-        background-color: white;
     }
 
     .ffimg {
@@ -453,7 +452,6 @@ footer div div a svg:hover {
         justify-content: center;
     }
 }
-
 @media screen and (max-width: 400px) {
     div .btn-jumbo {
         color: #e83113;
@@ -506,7 +504,7 @@ footer div div a svg:hover {
     .burnlogo-small {
         display: none;
     }
-
+    
     #burnnav ul img {
         display: none;
     }
