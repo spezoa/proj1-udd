@@ -24,7 +24,7 @@
 }
 
 .bg-main {
-    background-color: #e83113;
+    background-color: #cc2615;
     font-family: circular-font-lite;
     overflow-x: hidden;
 }
@@ -38,7 +38,7 @@
 }
 
 #burnnav ul li a:hover {
-    color: #e83113;
+    color: #cc2615;
     opacity: .8;
     transform: scale(1.05);
     font-family: circular-font-black;
@@ -73,7 +73,7 @@
 }
 
 div .btn-jumbo {
-    color: #e83113;
+    color: #cc2615;
     font-family: circular-font-med;
     border-radius: 50px;
     /* background-color: #e83113; */
@@ -81,7 +81,7 @@ div .btn-jumbo {
 }
 
 div .btn-jumbo:hover {
-    color:#e83113;
+    color:#cc2615;
     transform: scale(1.01);
     font-family: circular-font-black;
 }
@@ -95,14 +95,14 @@ div .btn-contact-truck {
 }
 
 div .btn-contact-truck:hover {
-    color:#e83113;
+    color:#cc2615;
     /* background-color: #333333; */
     transform: scale(1.01);
     font-family: circular-font-black;
 }
 
 div .btn-catalog {
-    color: #e83113;
+    color: #cc2615;
     font-family: circular-font-med;
     border-radius: 10px;
     min-width: 200px;
@@ -113,14 +113,14 @@ div .btn-catalog {
 
 div .btn-catalog:hover {
     color:#212529;
-    background-color: #e83113;
+    background-color: #cc2615;
     transform: scale(1.05);
     text-align: center;
 }
 
 div .card-info {
     font-family: circular-font-med;
-    color: #e83113;;
+    color: #cc2615;
     border-color: #212529;
     background-color: #212529;
     border-width: 5px;
@@ -137,14 +137,14 @@ div .card-catalog {
 }
 
 div .btn-send {
-    color: #e83113;
+    color: #cc2615;
     font-family: circular-font-med;
     border-radius: 50px;
     width: 150px;
 }
 
 div .btn-send:hover {
-    color:#e83113;
+    color:#cc2615;
     transform: scale(1.01);
     background-color: #333333;
     font-family: circular-font-black;
@@ -160,8 +160,8 @@ div h1 {
     margin: 0px;
 }
 
- article #sooninfo {
-    color: #e83113;
+ section #sooninfo {
+    color: #cc2615;
     background-color: #212529;
     font-family: circular-font-bold;
     align-content: center;
@@ -185,35 +185,35 @@ div input {
 }
 
 footer div {
-    color: #e83113;
+    color: cc2615;
     font-family: circular-font-book;
     background-color: #212529;
 
 }
 
 footer div a {
-    color: #e83113;
+    color: #cc2615;
     padding: 5px;
     border-radius: 5px;
 }
 
 footer div div div a:hover {
-    color: #e83113;
+    color: #cc2615;
     background-color: #333333;
     font-family: circular-font-bold;
 }
 
 footer div div a svg {
-    fill: #e83113;
+    fill: #cc2615;
 }
 
 footer div div a svg:hover {
-    filter: drop-shadow(0 0 .5rem #e83113);
+    filter: drop-shadow(0 0 .5rem #cc2615);
 }
 
 @media screen and (max-width: 1520px) {
     div .btn-jumbo {
-        color: #e83113;
+        color: #cc2615;
         font-family: circular-font-med;
         border-radius: 50px;
         font-size: 15px;
@@ -244,7 +244,7 @@ footer div div a svg:hover {
 
 @media screen and (max-width: 1250px) {
     div .btn-jumbo {
-        color: #e83113;
+        color: #cc2615;
         font-family: circular-font-med;
         border-radius: 50px;
         font-size: 15px;
@@ -331,7 +331,7 @@ footer div div a svg:hover {
 
 @media screen and (max-width: 772px) {
     div .btn-jumbo {
-        color: #e83113;
+        color: #cc2615;
         font-family: circular-font-med;
         border-radius: 30px;
         font-size: 15px;
@@ -387,9 +387,10 @@ footer div div a svg:hover {
         font-size: 40px;
     }
 }
+
 @media screen and (max-width: 650px) {
     div .btn-jumbo {
-        color: #e83113;
+        color: #cc2615;
         font-family: circular-font-med;
         border-radius: 20px;
         font-size: 15px;
@@ -398,7 +399,7 @@ footer div div a svg:hover {
 
     
     div .btn-catalog {
-        color: #e83113;
+        color: #cc2615;
         font-family: circular-font-med;
         border-radius: 10px;
         min-width: 200px;
@@ -407,7 +408,7 @@ footer div div a svg:hover {
     }
 
     div .btn-land {
-        color: #e83113;
+        color: #cc2615;
         font-family: circular-font-med;
         border-radius: 20px;
         font-size: 15px;
@@ -416,7 +417,7 @@ footer div div a svg:hover {
     }
 
     div .btn-send {
-        color: #e83113;
+        color: #cc2615;
         font-family: circular-font-med;
         border-radius: 50px;
         width: 80px;
@@ -452,9 +453,10 @@ footer div div a svg:hover {
         justify-content: center;
     }
 }
+
 @media screen and (max-width: 400px) {
     div .btn-jumbo {
-        color: #e83113;
+        color: #cc2615;
         font-family: circular-font-med;
         border-radius: 20px;
         font-size: 15px;
@@ -500,6 +502,7 @@ footer div div a svg:hover {
         justify-content: center;
     }
 }
+
 @media screen and (min-width: 993px) {
     .burnlogo-small {
         display: none;
